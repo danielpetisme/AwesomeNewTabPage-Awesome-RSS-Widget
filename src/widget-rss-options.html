@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Options - Widget-RSS</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type='text/javascript' src='common-rss.js'></script>
+    <script type='text/javascript' src='widget-rss-options.js'></script>
+
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  </head>
+  <body>
+    <form class="form-horizontal">
+       <legend>[ANTP] Awesome RSS Widget Options</legend>
+      <div class="control-group">
+      <label class="control-label" for="widgetUniqueId">ID:</label>
+        <div class="controls">              
+          <span id="widgetUniqueId"></span>
+        </div>
+      </div>
+      <div class="control-group">        
+        <label class="control-label" for="lastUpdate">Last Accessed:</label>
+        <div class="controls">        
+          <span id="lastUpdate"></span>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="nbEntries">Number of news to retrieve</label>
+        <div class="controls">
+          <select id="nbEntries" name="nbEntries">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="20">20</option>
+          </select>       
+        </div>
+      </div>              
+      <div class="control-group">
+        <label class="control-label" for="url">RSS Feed URL</label>
+        <div class="controls">        
+          <input type="text" id="url" name="url" class="input-xxlarge" placeholder="http://sample.rss.fedd.url.com/" />
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="controls">
+          <button type="button" class="btn" id="reset">Reset</button>
+          <button type="button" class="btn btn-primary" id="persist">Save</button>
+          <button type="button" class="btn" id="antp">Back to ANTP</button>          
+        </div>
+      </div>
+    </form>
+   </body>
+</html>
