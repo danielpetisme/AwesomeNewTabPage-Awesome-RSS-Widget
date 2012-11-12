@@ -3,7 +3,7 @@ Awesome RSS Widget
 
 This widget display your favorite websites' RSS feeds in Chrome.
 
-![Awesome RSS Widget screenshot](http://s7.postimage.org/z1z0759rv/screenshot_ARW.png)
+![Awesome RSS Widget screenshot](http://s9.postimage.org/48vrqpgwv/screenshot_ARW.png)
 
 Requirements
 ============
