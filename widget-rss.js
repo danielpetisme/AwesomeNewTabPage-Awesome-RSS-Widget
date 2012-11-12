@@ -31,11 +31,18 @@ function loadOrCreateRss(){
   save(instance);
       
 }
+//Clear the HTML outputs to prevent some UI errors
+function clearDisplay(){
+  $("#widget-rss-header").html(''); //Reset the header
+  $("#widget-rss-feed-container").html(''); //Reset the feeds
+}
 
 //Simply display the RSS
 function display(instance){
   console.debug("[ANTP-Widget-RSS] Display ID: {0}".format(getWidgetUniqueId()));
-  if(instance.url){ //The widget is configured    
+  if(instance.url){ //The widget is configured
+    //We reset the current rendering
+    clearDisplay();         
     //Link to the RSS provider website
     var feed = instance.feed;
     $("#widget-rss-header").html(' \

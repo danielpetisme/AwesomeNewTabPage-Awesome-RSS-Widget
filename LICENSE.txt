@@ -22,4 +22,4 @@ THE SOFTWARE.
 
 
 The RSS icon comes from:
-http://wdi.umich.edu/site_resources/images/rss-icon.png/image
+http://www.iconfinder.com/icondetails/60845/128/box_feed_orange_rss_social_icon
